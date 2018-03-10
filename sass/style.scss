@@ -1,0 +1,82 @@
+
+
+// Here is Porject style Imports
+@import "components/normalize";
+@import "components/_custom-fonts.scss";
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,700');
+@import "components/variabiles";
+@import "components/resets";
+@import "components/desktop";
+
+@media screen and (max-width:1229px ){
+	.main-wrapper {
+		.form-sectionn{
+			h1{
+				margin: 30px 0 30px;
+			}
+		}
+	}
+}
+@media screen and (max-height:861px ){
+	.main-wrapper {
+		.form-section {
+			padding: 20px;
+			h1{
+				margin: 10px 0 10px;
+			}
+
+		}
+	}
+}
+
+
+@media (max-width: 1144px) {
+	@import "components/tablet-style";
+	 .vrv-shows {
+	 	animation: none;
+	 	display: none;
+	 }
+}
+@media (max-width: 495px) {
+	@import "components/mobile-style";
+	.vrv-shows {
+	 	animation: none;
+	 	display: none;
+	 }
+	.hero-section {
+		position: absolute;
+		bottom: 0 px;
+	}
+}
+
+ @media screen and (max-height:1024px ){
+	.main-wrapper {
+		.form-section {
+			padding: 20px;
+			h1{
+				margin: 15px 0 15px;
+				font-size: 44px;
+				line-height: 48px;
+			}
+		}
+		.formular-container {
+ 			margin-top: 0px;
+  			padding-bottom: 20px;
+  		}
+  		.form-title {
+  			margin: 20px;
+  		}
+  		.main-wrapper .form-section .steps-container {
+			margin-bottom: 0px; 
+		}
+	}	
+}
+ 
+
+
+
+
+
+
+
+
